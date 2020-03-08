@@ -38,7 +38,7 @@ h5,.date{
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-auto-rows:(1px, 1fr) ;
+    grid-auto-rows:(200px, 1fr) ;
     grid-gap: 7px;
 }
 .one{
@@ -86,4 +86,5 @@ h5,.date{
     grid-row: 1/4;
     background-color: #F5C6D6;
 }
+/* the grid completely stumped me. */
 
