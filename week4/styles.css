@@ -1,0 +1,89 @@
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    background-color: beige;
+}
+.home{
+    position: relative;
+    left: 75%;
+}
+.menu{
+    position: relative;
+    left: 40%;
+}
+.grid.html{
+    position: relative;
+    left: 25%;
+}
+.title{
+    position: relative;
+    text-align: center;
+}
+.text{
+    position: relative;
+    text-align: center;
+}
+div,.post1{
+    width: 250px;
+    border: 5px blue;
+    padding: 15px;
+    margin: 8px;
+    margin-left: 550px;
+}
+h5,.date{
+    position: relative;
+    margin: 10px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-auto-rows:(1px, 1fr) ;
+    grid-gap: 7px;
+}
+.one{
+    grid-column: 4/4;
+    grid-row: 2/4;
+    background-color: #F5C6D6;
+}
+.two{
+    grid-column: 1/4;
+    grid-row: 2/4;
+    background-color: #F5C6D6;
+}
+.three{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: #F5C6D6;
+}
+.four{
+    grid-column: 3/6;
+    grid-row: 2/4;
+    background-color: #F5C6D6;
+}
+.five{
+    grid-column: 4/4;
+    grid-row: 2/4;
+    background-color: #F5C6D6;
+}
+.six{
+    grid-column: 2/4;
+    grid-row: 1/4;
+    background-color: #F5C6D6;
+}
+.seven{
+    grid-column: 2/4;
+    grid-row: 1/4;
+    background-color: #F5C6D6;
+}
+.eight{
+    grid-column: 2/4;
+    grid-row: 1/4;
+    background-color: #F5C6D6;
+}
+.nine{
+    grid-column: 2/4;
+    grid-row: 1/4;
+    background-color: #F5C6D6;
+}
+
